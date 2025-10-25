@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - MiSitio</title>
+  <link rel="stylesheet" href=" estilos.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="index.html" class="nav-logo">MiSitio</a>
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link active">About Us</a>
+    </div>
+    <div class="nav-right">
+      <span id="userName" class="user-name"></span>
+      <button id="loginBtn" class="icon-btn" title="Login">
+        <span class="login-icon">🔒</span>
+      </button>
+    </div>
+  </nav>
+  <main>
+    <section id="about">
+  <h1 style="text-align: center; font-size: 2rem; " >Sobre Nosotros</h1>
+  <hr>
+  <h2>Nuestra Historia</h2>
+  <p>DeepWork nació en 2020 con la visión de democratizar el acceso a la inteligencia artificial y el desarrollo de software de calidad empresarial. Fundada por un equipo de ingenieros apasionados por la tecnología, hemos crecido hasta convertirnos en un referente en soluciones digitales innovadoras.</p>
+  
+  <h2>Nuestra Misión</h2>
+  <p>Crear soluciones tecnológicas que potencien la eficiencia operativa de nuestros clientes, integrando inteligencia artificial de manera práctica y accesible para resolver problemas reales del mundo empresarial.</p>
+  
+  <h2>Nuestra Visión</h2>
+  <p>Ser la empresa líder en transformación digital en América Latina para 2028, reconocida por nuestra capacidad de integrar IA en soluciones empresariales que generan valor medible y sostenible.</p>
+  
+  <h2>Nuestros Valores</h2>
+  <ul>
+    <li><strong>Innovación Constante:</strong> Nos mantenemos a la vanguardia de las últimas tecnologías para ofrecer soluciones de clase mundial.</li>
+    <li><strong>Compromiso con la Calidad:</strong> Cada línea de código representa nuestro estándar de excelencia.</li>
+    <li><strong>Transparencia:</strong> Comunicación clara y honesta en cada etapa del proyecto.</li>
+    <li><strong>Enfoque en Resultados:</strong> Medimos nuestro éxito por el impacto real en el negocio de nuestros clientes.</li>
+    <li><strong>Colaboración:</strong> Trabajamos como una extensión de tu equipo, no solo como un proveedor.</li>
+  </ul>
+  
+  <h2>Nuestro Equipo</h2>
+  <p>Contamos con un equipo multidisciplinario de 25+ profesionales especializados en:</p>
+  <ul>
+    <li>Ingenieros de Software Full Stack</li>
+    <li>Científicos de Datos y especialistas en Machine Learning</li>
+    <li>Arquitectos de Soluciones Cloud</li>
+    <li>Diseñadores UX/UI</li>
+    <li>Consultores en Transformación Digital</li>
+  </ul>
+  
+  <h2>Por Qué Elegirnos</h2>
+  <p>En DeepWork no solo desarrollamos software, creamos alianzas estratégicas con nuestros clientes. Nuestro enfoque personalizado garantiza que cada solución esté perfectamente alineada con tus objetivos de negocio.</p>
+</section>
+
+  </main>
+
+   <div id="loginModal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <h2>Iniciar Sesion</h2>
+        <form id="formLogin">
+          <input type="text" id="login" placeholder="Usuario" required />
+          <input
+            type="password"
+            id="password"
+            placeholder="Contrasena"
+            required
+          />
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+<footer>
+      <p> Desarrollado por Yael Adonai de Alba Alva. 21/10/2025</p>
+  </footer>   
+  
+  <script src="app.js"></script>
+</body>
+</html>
